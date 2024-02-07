@@ -223,42 +223,39 @@
         <p>The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.</p>
     </li>
     <li>
-        <p>For performance reasons, <strong>carousels must be manually initialized</strong> using the <a href="#methods">carousel constructor method</a>. Without initialization, some of the event listeners (specifically, the events needed touch/swipe support) will not be registered until a user has explicitly activated a control or indicator.</p>
-        <p>The only exception are <a href="#autoplaying-carousels">autoplaying carousels</a> with the <code>data-bs-ride="carousel"</code> attribute as these are initialized automatically on page load. If you’re using autoplaying carousels with the data attribute, <strong>don’t explicitly initialize the same carousels with the constructor method.</strong></p>
+        <p>For performance reasons, <strong>carousels must be manually initialized</strong> using the carousel constructor method. Without initialization, some of the event listeners (specifically, the events needed touch/swipe support) will not be registered until a user has explicitly activated a control or indicator.</p>
+        <p>The only exception are autoplaying carousels with the <code>data-bs-ride="carousel"</code> attribute as these are initialized automatically on page load. If you’re using autoplaying carousels with the data attribute, <strong>don’t explicitly initialize the same carousels with the constructor method.</strong></p>
     </li>
     <li>
         <p>Nested carousels are not supported. You should also be aware that carousels in general can often cause usability and accessibility challenges.</p>
     </li>
 </ul>
 
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="500">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="200">
+        <div class="carousel-item active" data-bs-interval="600">
             <img src="Img1.jpg" id="img1" alt="schöne Jungs">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
+        <div class="carousel-item" data-bs-interval="600">
             <img src="Img2.jpg" id="img2" alt="schönes Bike">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
+        <div class="carousel-item" data-bs-interval="600">
             <img src="Img3.jpg" id="img3" alt="Entulin">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
+        <div class="carousel-item" data-bs-interval="600">
             <img src="Img4.jpg" id="img4" alt="Hühnerjunge">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
+        <div class="carousel-item" data-bs-interval="600">
             <img src="Img5.jpg" id="img5" alt="Waschtag">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
+        <div class="carousel-item" data-bs-interval="600">
             <img src="Img6.jpg" id="img6" alt="Waschtag">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
-            <img src="Img7.jpg" id="img7" alt="Waschtag">
+        <div class="carousel-item" data-bs-interval="600">
+            <img src="Img8.jpg" id="img7" alt="Iven07Jac">
         </div>
-        <div class="carousel-item" data-bs-interval="200">
-            <img src="Img8.jpg" id="img8" alt="Waschtag">
-        </div>
-        <div class="carousel-item" data-bs-interval="200">
-            <img src="Img9.jpg" id="img9" alt="Waschtag">
+        <div class="carousel-item" data-bs-interval="600">
+            <img src="Img9.jpg" id="img8" alt="Katzee">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
