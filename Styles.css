@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+h3.coloured-text {
+    color: #d63384;
+}
+
+h3 {
+    text-align: center;
+    margin: 2rem 2rem;
+
+}
+
+p.info-text {
+    margin: 2rem;
+}
+
+pre {
+    margin: 2rem;
+}
+
+a.navbar-element {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    color: white;
+}
+
+div.navbar {
+    align-self: center;
+    background-color: dimgray;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+main {
+    margin: 2rem 2rem;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9  {
+    width: 100%;
+    height: 80rem;
+}
+
